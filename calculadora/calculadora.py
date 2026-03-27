@@ -2,10 +2,11 @@ import soma
 import subtrai
 import multiplica
 import divide
+import potencia
 
 n1 = float(input("Digite o primeiro número: "))
 n2 = float(input("Digite o segundo número: "))
-operador = input("Digite a operação (+, -, *, /): ")
+operador = input("Digite a operação (+, -, *, /, **): ")
 
 if operador == "+":
     resultado = soma.somaf(n1, n2)
